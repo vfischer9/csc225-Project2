@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel='stylesheet' href='/css/checkout.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <title>Checkout Page</title>
+</head>
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-5">Final step!</h1>
+        <h6 class="lead animated pulse slow">Please continue filling out your billing information.</h6>
+        <p class="lead mt-4">
+            <a class="btn btn-danger btn-md text-light" href="checkout2.html" role="button"><i class="fas fa-undo"></i> Go Back</a>
+        </p>
+      </div>
+
+      <form class='ml-5' method='get' action='submit.html'>
+        <div class='mb-4'>
+            <label for="name">Name on Card:</label><br>
+            <input type='text' id='name' name='name' required>
+        </div> 
+
+        <div class='mb-4'>
+            <label for="cardnum">Credit Card Number:</label><br>
+            <input type='text' id='cardnum' name='cardnum' required>
+        </div>     
+
+        <div class='mb-4'>
+            <label for="cardsec">CVV Security Code:</label><br>
+            <input type='password' id='cardsec' name='cardsec' required>
+        </div> 
+
+        <div class='mb-4'>
+            <input type='submit'>
+        </div> 
+
+
+      </form>
+    
+
+      <br>
+      <br>
+
+</body>
+</html>

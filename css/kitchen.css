@@ -1,0 +1,20 @@
+*{
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    background-image: url(/images/kitchenbg.jpg);
+    background-size: cover;
+}
+
+.jumbotron{
+    height: 225px;
+    padding-top: 40px;
+    background-image: url(/images/kitchenbg.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    background: transparent;
+    font-size: large;
+}

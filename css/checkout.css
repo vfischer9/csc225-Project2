@@ -1,0 +1,16 @@
+*{
+    font-family: 'Righteous', cursive;
+}
+
+
+.jumbotron{
+    height: 175px;
+    padding-top: 40px;
+    background-image: url(/images/cart.jpg);
+    background-size: cover;
+}
+
+body{
+    background-image: url(/images/cart.jpg);
+    background-size: cover;
+}

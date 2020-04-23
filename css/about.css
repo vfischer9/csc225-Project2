@@ -1,0 +1,30 @@
+*{
+    font-family: 'Righteous', cursive;
+}
+
+
+.jumbotron{
+    height: 225px;
+    padding-top: 40px;
+    background-image: url(/images/pinkmarble.jpg);
+    background-size: cover;
+}
+
+body{
+    background-image: url(/images/pinkmarble.jpg);
+    background-size: cover;
+}
+
+.container img{
+    width: 12rem;
+}
+
+.container figure{
+    float: left;
+}
+
+
+.navbar{
+    background: transparent;
+    font-size: large;
+}
